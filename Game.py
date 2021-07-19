@@ -15,21 +15,12 @@ class Game:
 
         diceToKeep = input("Select which dice you would like to keep: ")
         
-        player1Dice.availableDice.pop(diceToKeep)
-        player1Dice.confirmedDice.append(diceToKeep)
-
-        print(player1Dice.availableDice)
-        print(player1Dice.confirmedDice)
-
-        for x in player1Dice.availableDice:
-            print(player1Dice.rollDice(x))
-
-        print(player1Dice.availableDice)
-        print(player1Dice.confirmedDice)
+        print(diceToKeep)
 
 
     def main():
         print("roll your dice")
         Game.game()
 
-Game.main()
+if __name__ == "__main__":
+    Game.main()

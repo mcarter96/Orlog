@@ -3,7 +3,7 @@ Orlog
 Rules:
 
 Plan:
--Setup dice, be able to roll (no god favor tokens yet)
+xSetup dice, be able to roll (no god favor tokens yet)
 -Select dice to keep and only have three rolls
 -Set up two player system (taking turns, flipping coin)
 -Implement the game system (shield beats arrow, helmet beats axe, hand steals god favor) and health counters
